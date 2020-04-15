@@ -1,1 +1,1 @@
-#My Blog Site project for Frontend Nanodegree
+My Blog Site project for Frontend Nanodegree
