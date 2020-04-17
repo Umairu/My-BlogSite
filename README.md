@@ -1,3 +1,3 @@
 My Blog Site project for Frontend Nanodegree
 
-Visit http://umairalsam.me/
+Visit http://umairalsam.me/ for live version
