@@ -1,0 +1,22 @@
+.blog-title {
+    display: flex;
+    justify-content:flex-start;
+    color: #017A9B;
+    width: 20%;
+}
+
+.nav-bar {
+    display:flex;
+    list-style-type: none;
+    flex-direction: row;
+    font-size: medium;
+    justify-content:flex-end;
+    margin: 0;
+    padding: 2px;
+    flex-flow: row wrap;
+    
+}
+#list-item {
+   margin: 3px;
+   font-size: medium;
+}

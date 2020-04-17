@@ -1,0 +1,85 @@
+@import "./header.css";
+@import "./footer.css";
+@import "./navbar.css";
+
+/* Used Udacity Veritas Design */
+body{
+     
+    background-image:linear-gradient(to bottom right, #DCBFF3, #A4E4F5);
+}
+.items {
+    padding: 15px;
+    background-color:#B2CEE0;
+    border:2px solid #2A77AA;
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 32px 8px rgba(17,22,26,0.16), 0 16px 24px 8px rgba(17,22,26,0.08), 0 64px 96px 8px rgba(17,22,26,0.08);
+}
+
+@media(min-width:250px) {
+    .container {
+        display: block;
+        
+        width:100% ;
+        
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        display: grid;
+        grid-template-columns:220px 170px 170px 150px ;
+        grid-template-rows: repeat(3,300px);
+        grid-gap:5px; 
+        grid-template-areas:
+        "one one two two"
+        "three three four four"
+        "five five six six"
+        ;
+        
+    }
+}
+
+@media(min-width:1000px){
+    .container {
+        display: grid;
+        grid-template-columns:repeat(4,250px) ;
+        grid-template-rows: repeat(3,300px);
+        grid-gap:10px; 
+        grid-template-areas:
+        "one one two two"
+        "three three four four"
+        "five five six six"
+        ;
+        
+    }
+}
+
+.item1 {
+    grid-area:one ;
+    background-image: url(../images/books.jpg);
+     ;
+}
+
+.item2 {
+    grid-area:two ;
+    background-image: url("../images/blue.jpg");
+    color:wheat;
+}
+
+.item3 {
+    grid-area:three ;
+    background-image: url("../images/code.jpg");
+    color: oldlace;
+}
+
+.item4 {
+    grid-area:four ;
+}
+
+.item5 {
+    grid-area:five ;
+}
+
+.item6 {
+    grid-area:six ;
+}
